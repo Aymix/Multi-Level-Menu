@@ -1,0 +1,213 @@
+
+.element-right-icon{
+  padding-left: 25px;
+float: right;
+margin-top: 0px!important;
+}
+
+.element-left-icon{
+padding-right: 30px!important;
+}
+
+.right-block > li{
+  padding-left: 5px;
+  background: #25333b;
+}
+.left-block a{
+  line-height: .5;
+  height: 5px;
+  border-color: rgb(58, 78, 89);
+  border-style: solid;
+  border-width: 0px 0px 1px;
+
+}
+.right-block a{
+line-height: .5;
+    height: 5px;
+  border-color: rgb(58, 78, 89);
+  border-style: solid;
+  border-width: 0px 0px 1px;
+
+}
+
+
+.animated {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+@keyframes slideInDown {
+  from {
+      max-height: 0px;
+  }
+
+  to {
+
+    max-height:1200px;
+    overflow: visible;
+
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+    width: max-content;
+}
+
+
+@keyframes slideInLeft{
+  from {
+
+    max-width: 0px;
+  }
+
+  to {
+
+    max-width: 1000px;
+
+  }
+
+}
+
+
+.slideInLeft {
+max-width: 1000px;
+  animation-name: slideInLeft;
+
+}
+
+
+
+.left-block{
+
+  overflow: hidden;
+
+  z-index: 1;
+  padding: 5px 5px 5px 0px;
+
+background: #25333b;
+border-radius: 0px 5px 5px 0px;
+}
+.right-block{
+  overflow: hidden;
+
+z-index: 1;
+  padding: 5px 0px 5px 0px;
+background: #25333b;
+border-radius:0px 0px 0px 5px;
+}
+.main-navigation{
+  z-index: -1;
+}
+
+.main-navigation-list{
+  padding: 10px;
+  position: initial;
+}
+
+
+.empty-block{
+border-color: rgba(255, 0, 0, 0)!important;
+}
+.empty-block:hover{
+
+  background:#25333b!important;
+  cursor: default;
+}
+
+
+.main-navigation li ul li { border-top: 0; }
+
+img{
+  float:left;
+  padding-right: 6px;
+  margin-top: -4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: black;
+
+  border-radius: 4px;
+}
+
+ul li {
+
+  display: block;
+  position: relative;
+  float: left;
+  background: black;
+}
+
+/* This hides the dropdowns */
+
+
+li ul { display: none; }
+.main-navigation-link{
+  color: white;
+  font-size: 14px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+ul li a {
+
+
+  text-align: left;
+    font: 12px Arial,Helvetica,sans-serif;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color:rgb(158, 217, 179);;
+}
+
+ul li a:hover { background: #25333b; }
+
+/* Display the dropdown */
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #25333b; }
+
+li:hover > .level1{
+  background: #2a404d!important;
+}
+
+li:hover li a:hover {
+  background:#2a404d;
+
+}
+
+
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+ul ul ul ul {
+
+  top: 0;
+}
+ul ul ul  {
+
+  top: 0;
+}
+
+/* Simple clearfix */
+
+
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
