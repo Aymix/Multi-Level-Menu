@@ -1,71 +1,36 @@
-[![uikit banner](https://cloud.githubusercontent.com/assets/321047/21769911/474d7d9e-d681-11e6-9fe0-d95f8ccfd3a9.jpg)](http://getuikit.com/)
 
-# UIkit
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/uikit/uikit)
+# Multi Level Menu
 
-UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.
-
-* [Homepage](http://getuikit.com) - Learn more about UIkit
-* [@getuikit](https://twitter.com/getuikit) - Get the latest buzz on Twitter
-* [Gitter Chat](https://gitter.im/uikit/uikit) - Join our developer chat on Gitter.
 
 ---
 
 <p align="center">
-  <b>UIkit is an Open Source project developed by YOOtheme.</b>
-  <br><br>
-  <a href="https://yootheme.com" align="center">
-      <img width="134" height="30" src="http://yootheme.com/pro/images/logo.svg">
-  </a>
+  <b>This is a multi level menu with nested element coded with pure css</b>
 </p>
 
 ---
 
 ## Getting started
 
-You have the following options to get UIkit:
 
-- Download the [latest release](https://github.com/uikit/uikit/releases/latest) with pre-built CSS and JS.
-- Install with [Bower](https://bower.io) to get the pre-built CSS and JS, plus Less files to compile yourself. This is recommended when using UIkit for a typical web project: ```bower install uikit```
-- Clone the repo to get all source files including build scripts: `git clone git://github.com/uikit/uikit.git`
-- Install with [Npm](https://npmjs.com) to get all source files as they are available on Github: ```npm install uikit```
-- Directly load UIkit from [CDNJS](https://cdnjs.com): https://cdnjs.com/libraries/uikit
 
 ## Developers
 
-To always have the newest version of UIkit, even before a release, you may want to build it from source. If you only want to integrate the Less sources in your own website, you should simply install the Bower package instead.
+To always have the news, you may want to change it to the style you like. So i made it with love to be easy to modify with simple classes using no library or framework.
 
-Clone the UIkit repository.
-
-```
-git clone git://github.com/uikit/uikit.git
-cd uikit
-```
-
-Install the Node dependencies.
+Just Clone repository.
 
 ```
-npm install
+git clone git://github.com/Aymix/Multi-Level-Menu.git
+cd Multi-Level-Menu
 ```
 
-Build UIkit. The result will end up in the `dist/` folder.
+No dependencies needed.
 
-```
-npm run compile
-```
 
-You can also watch for file changes and re-compile automatically.
 
-```
-npm run watch
-```
 
-Compile dist in rtl mode (experimental).
-
-```
-npm run compile-rtl
-```
 
 ## Contributing
 
@@ -73,7 +38,6 @@ Finding bugs, sending pull requests or improving our docs - any contribution is 
 
 ## Versioning
 
-UIkit is maintained by using the [Semantic Versioning Specification (SemVer)](http://semver.org).
 
 ## Browser Support
 
