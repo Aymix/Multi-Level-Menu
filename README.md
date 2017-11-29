@@ -49,4 +49,4 @@ Tested With<br>[![BrowserStack](https://user-images.githubusercontent.com/355427
 
 ## Copyright and License
 
-Copyright [YOOtheme](https://yootheme.com) GmbH under the [MIT license](LICENSE.md).
+Copyright AymixStudio GmbH under the [MIT license](LICENSE.md).
